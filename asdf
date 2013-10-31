@@ -1,0 +1,6 @@
+#!/bin/sh
+setxkbmap dvorak
+xmodmap ~/.xmodmap_swap-ctrl-alt
+
+xmodmap -e 'keycode 66 = BackSpace' -e 'clear Lock'
+xset r 66
