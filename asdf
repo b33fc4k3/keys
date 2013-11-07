@@ -1,6 +1,14 @@
 #!/bin/sh
 setxkbmap dvorak
 
+# really should swap u and i (and aswell f and q? x and ?)
+# furthermore:
+# capewell-dvorak
+# http://geekhack.org/index.php?topic=23493.0
+# http://forum.colemak.com/viewtopic.php?id=492
+# http://www.andong.co.uk/dvorak/
+# https://github.com/milomouse/dotfiles/blob/master/keymaps/capewell-dvorak.xmodmap
+
 # probably instead of caps = rubout, caps = alt!??
 #xmodmap ~/keys/xmodmap_symbolics
 #xmodmap ~/keys/xmodmap_rubout
