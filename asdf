@@ -1,6 +1,10 @@
 #!/bin/sh
 setxkbmap dvorak
-xmodmap ~/.xmodmap_swap-ctrl-alt
 
-xmodmap -e 'keycode 66 = BackSpace' -e 'clear Lock'
+xmodmap ~/keys/xmodmap_symbolics
+xmodmap ~/keys/xmodmap_swap-numbers-symbols
+xmodmap ~/keys/xmodmap_umlauts
+xmodmap ~/keys/xmodmap_rubout
+
+# make caps_lock => rubout repeatable
 xset r 66

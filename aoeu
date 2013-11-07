@@ -1,3 +1,4 @@
 #!/bin/sh
 setxkbmap -layout de
-xmodmap ~/.xmodmap_caps-ctrl
+
+xmodmap ~/keys/xmodmap_swap-caps-ctrl
